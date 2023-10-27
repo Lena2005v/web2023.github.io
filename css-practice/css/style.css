@@ -25,7 +25,11 @@ h1 {
     font-weight:bold;
 }
 .whitetext {
-    
+    font-display:swap;
+    font-family:'Anek Devanagari';
+    font-style:normal;
+    font-weight:400;
+    src:url('fonts/anek-devanagari-v8-latin-regular.woff2') format('woff2');
 }
 .backgroundblack {
     background-color:black;
