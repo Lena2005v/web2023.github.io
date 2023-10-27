@@ -1,0 +1,17 @@
+.nav-index {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap:nowrap;
+    align-items:center;
+    background-color:#000000;
+}
+.nav-index-1 {
+    list-style-type:none;
+    margin:0 auto;
+    border:2px solid black;
+    padding:5px;
+    text-transform:uppercase;
+    background-color:#4682B4;
+}
+.nav-index-1:hover
