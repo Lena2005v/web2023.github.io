@@ -1,3 +1,6 @@
+body {
+    background:#c7b39b url(images/backgroung.jpg);
+}
 .nav-index {
     display:flex;
     flex-direction:row;
@@ -16,5 +19,5 @@
 }
 .nav-index-1:hover
 {
-background: #c7b39b url(images/backgroung.jpg);
+    background-color:lightyellow;
 }
