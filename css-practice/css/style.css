@@ -30,12 +30,12 @@ h1 {
 }
 h2 {
     font-weight:bold;
-    margin:10 px;
+    margin-left:60%;
     color:white;
 }
 .lefth1 {
-    margin:10 px;
-    color:#FFFFFF;    
+    margin-left:60%;
+    color:white;    
 }
 .whitetext {
     color:white;
