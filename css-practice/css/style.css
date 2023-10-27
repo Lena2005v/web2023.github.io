@@ -23,18 +23,18 @@ body {
 }
 h1 {
     font-weight:bold;
-    text-align:center;
 }
 .whitetexth1 {
     color:white;
+    text-align:center;
 }
 h2 {
     font-weight:bold;
-    margin-left:300 px;
+    margin-left:400 px;
     color:white;
 }
 .lefth1 {
-    margin-left:300 px;
+    margin-left:400 px;
     color:white;    
 }
 .whitetext {
