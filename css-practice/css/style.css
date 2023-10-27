@@ -1,5 +1,5 @@
 body {
-    background:#c7b39b;
+    background:lightyellow;
 }
 .nav-index {
     display:flex;
@@ -23,6 +23,7 @@ body {
 }
 h1 {
     font-weight:bold;
+    text-align:center;
 }
 .whitetext {
     font-display:swap;
