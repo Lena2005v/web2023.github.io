@@ -15,3 +15,6 @@
     background-color:#4682B4;
 }
 .nav-index-1:hover
+background-image:url('background.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
