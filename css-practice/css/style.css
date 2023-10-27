@@ -1,5 +1,5 @@
 body {
-    background:#c7b39b url(images/backgroung.jpg);
+    background:#c7b39b;
 }
 .nav-index {
     display:flex;
@@ -20,4 +20,13 @@ body {
 .nav-index-1:hover
 {
     background-color:lightyellow;
+}
+h1 {
+    font-weight:bold;
+}
+.whitetext {
+    
+}
+.backgroundblack {
+    background-color:black;
 }
