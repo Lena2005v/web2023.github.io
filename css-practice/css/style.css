@@ -30,11 +30,12 @@ h1 {
 }
 h2 {
     font-weight:bold;
-    text-align:right;
+    margin:10 px;
     color:white;
 }
 .lefth1 {
-    text-align:right;    
+    margin:10 px;
+    color:#FFFFFF;    
 }
 .whitetext {
     color:white;
@@ -48,4 +49,11 @@ h2 {
     color:white
     margin:0 auto;
     padding:0;
+}
+img {
+    display:block;
+    margin:0 auto;
+    width:100px;
+    border:3px solid #FFFFFF;
+    position:absolute;
 }
