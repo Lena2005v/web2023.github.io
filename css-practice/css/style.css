@@ -1,5 +1,14 @@
 body {
     background:black;
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-display:swap;
+    font-family:'Alegreya';
+    font-style:normal;
+    font-weight:400;
+    src:url('fonts/alegreya-v35-cyrillic_latin-regular.woff2') format('woff2');
 }
 .nav-index {
     display:flex;
@@ -19,46 +28,102 @@ body {
 }
 .nav-index-1:hover
 {
-    background-color:white;
+    background-color:lightpink;
+}
+.gudimage {
+    background-color:lightpink;
 }
 h1 {
     font-weight:bold;
+    font-family:'Alegreya';
+}
+.centerh1 {
+    text-align:center;
 }
 .whitetexth1 {
-    color:white;
+    color:lightpink;
     text-align:center;
 }
 h2 {
     font-weight:bold;
-    margin-left:50%;
-    color:white;
+    margin-left:10%;
+    font-family:'Alegreya';
 }
 .lefth1 {
-    margin-left:50%;
-    color:white;    
+    margin-left:10%;
 }
 .whitetext {
-    color:white;
-    font-display:swap;
-    font-family:'Anek Devanagari';
-    font-style:normal;
-    font-weight:400;
-    src:url('fonts/anek-devanagari-v8-latin-regular.woff2') format('woff2');
+    color:lightpink;
+    font-family:'Alegreya';
 }
 .backgroundwhite {
-    color:white
+    background-color:lightpink;
     margin:0 auto;
     padding:0;
+    width:100%;
 }
-img {
+.commonimages {
     display:block;
     margin:0 auto;
 }
-.imgbackground {
-    background-image:url("catbackground.jpg");
-    background-size:no-repeat;
-    background-position:center;
-    background-size:cover;
-    height:400px;
-    width:400px;
+.wordimage {
+    margin-left:10%;
+}
+.wordtext {
+    margin-left:13%;
+    display:inline;
+    font-family:'Alegreya';
+}
+.exceltext {
+    margin-left:16%;
+    display:inline;
+    font-family:'Alegreya';
+}
+.powerpointtext {
+    margin-left:13.5%;
+    display:inline;
+    font-family:'Alegreya';
+}
+.pycharmtext {
+    margin-left:13%;
+    display:inline;
+    font-family:'Alegreya';
+}
+.visualstudiocodetext {
+    margin-left:10%;
+    display:inline;
+    font-family:'Alegreya';
+}
+.leftandrightdiv {
+    display:inline-flex;
+    flex-wrap:nowrap;
+}
+.leftdiv {
+    width:50%;
+}
+.rightdiv {
+    width:50%;
+}
+.btn {
+    width:100px;
+    padding:1px 1px;
+    background-color:lightpink;
+    border-radius:5px;
+    position:relative;
+    left:45%;
+    margin-bottom:10px;
+}
+.rightwhitetext {
+    margin-left:13%;
+    color:lightpink;
+    font-family:'Alegreya';
+}
+.vkandinstimage {
+    padding-left:18px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.githubimage {
+    padding-top:10px;
+    padding-bottom:10px;
 }
