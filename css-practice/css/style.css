@@ -10,6 +10,9 @@ body {
     font-weight:400;
     src:url('fonts/alegreya-v35-cyrillic_latin-regular.woff2') format('woff2');
 }
+.img {
+    background-image:url("../images/kotenok.jpg");
+}
 .nav-index {
     display:flex;
     flex-direction:row;
