@@ -64,7 +64,7 @@ h2 {
 }
 .commonimages {
     display:block;
-    margin:0 auto;
+    margin-left:20px;
 }
 .wordimage {
     margin-left:10%;
@@ -149,4 +149,28 @@ th, td {
     margin:0 auto;
     background-color:black;
     color:lightpink;
+}
+.classvideopetty {
+    margin-left:50px;
+}
+.classvideosenya {
+    margin-right:50px;
+}
+.lefttext {
+    margin-left:13%;
+    margin-right:13%;
+}
+.classimgpopugay {
+    display:block;
+    margin-left:70px;
+}
+.rightwhitetext1 {
+    margin-left:9%;
+    color:lightpink;
+    font-family:'Alegreya';
+}
+.rightblacktext {
+    margin-left:13%;
+    color:black;
+    font-family:'Alegreya';
 }
