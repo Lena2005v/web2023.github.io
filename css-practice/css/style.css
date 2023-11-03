@@ -135,18 +135,18 @@ table {
     margin:0 auto;
     }
 th, td {
-    border:2px solid black;
+    border:2px solid lightpink;
     padding:5px;
 }
 .ramka-color {
-    border:2px solid black;
     text-align:center;
     margin:0 auto;
     background-color:lightpink;
+    color:black;
 }
-.ramka-color {
-    border:2px solid lightpink;
+.ramka-color-black {
     text-align:center;
     margin:0 auto;
     background-color:black;
+    color:lightpink;
 }
