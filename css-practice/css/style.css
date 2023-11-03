@@ -12,6 +12,9 @@ body {
 }
 .img {
     background-image:url("../images/kotenok.jpg");
+    height:400px;
+    background-size:cover;
+    border-top:0px;
 }
 .nav-index {
     display:flex;
