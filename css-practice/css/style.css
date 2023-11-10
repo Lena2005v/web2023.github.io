@@ -174,16 +174,20 @@ th, td {
     color:black;
     font-family:'Alegreya';
 }
-.commontable {
+.contactsimgvk {
+    display:inine-block;
+    padding-left:18px;
+}
+.ramka-color-contacts-soc {
+    text-align:center;
+    background-color:lightpink;
+    color:black;
     border-collapse:collapse;
     border:2px solid black;
-    background-color:white;
-    text-align:center;
-    margin:0 auto;
+    margin-left:18px;
 }
-.commonth {
-    border:2px solid lightpink;
-    padding:5px;
-    color:lightpink;
+.leftblacktext {
+    margin:0 auto;
+    color:black;
     font-family:'Alegreya';
 }
