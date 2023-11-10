@@ -174,3 +174,16 @@ th, td {
     color:black;
     font-family:'Alegreya';
 }
+.commontable {
+    border-collapse:collapse;
+    border:2px solid black;
+    background-color:white;
+    text-align:center;
+    margin:0 auto;
+}
+.commonth {
+    border:2px solid lightpink;
+    padding:5px;
+    color:lightpink;
+    font-family:'Alegreya';
+}
