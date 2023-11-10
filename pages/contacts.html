@@ -10,7 +10,7 @@
 <body>
     <nav>
         <ul class="nav-index">
-            <li class="nav-index-1"><img class="gudimage" src="../images/gud.jpg" href="../index.html" width=100></li>
+            <li class="nav-index-1"><img class="gudimage" src="../images/gud.jpg" href="../index.html" width="100"></li>
             <li class="nav-index-1"><a href="../index.html">О себе</a></li>
             <li class="nav-index-1"><a href="../pages/summary.html">Резюме</a></li>
             <li class="nav-index-1"><a href="../pages/portfolio.html">Портфолио</a></li>
@@ -26,18 +26,54 @@
         </div>
     </header>
     <main>
-        <div>
-            <div class="ramka-color-contacts-soc">
-                <p class="leftblacktext">Я в социальных сетях</p>
-                <img class="contactsimgvk" src="../images/vk.jpg">
-                <img class="contactsimginst" src="../images/inst.jpg">
-                <img class="contactsimggit" src="../images/git.jpg">
+        <div class="container">
+            <div class="block">
+                <h3>Я в социальных сетях</h3>
+                <img class="vkandinstimage" src="../images/vk.jpg" width="60">
+                <img class="vkandinstimage" src="../images/inst.jpg" width="60">
+                <img class="githubimage" src="../images/git.jpg" width="103">
             </div>
-            <div class="ramka-color-contacts">
-                
+            <div class="block">
+                <h3>Почта:</h3>
+                <p class="commontext">lena.minliba@gmail.com</p>
+                <form>
+                    <div>
+                        <label for="name">Имя:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="email">Почта:</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="message">Сообщение:</label>
+                        <input type="message" name="message" id="message">
+                    </div>
+                    <div>
+                        <input type="submit" value="Отправить" button class="btnpochta">
+                    </div>
+                </form>
             </div>
-            <div class="ramka-color-contacts">
-                
+            <div class="block">
+                <h3>Телефон:</h3>
+                <p class="commontext">8(968)001-78-15</p>
+                <form>
+                    <div>
+                        <label for="name">Имя:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="email">Мобильный телефон:</label>
+                        <input type="text" name="telefon" id="telefon">
+                    </div>
+                    <div>
+                        <label for="message">Причина обращения:</label>
+                        <input type="message" name="message" id="message">
+                    </div>
+                    <div>
+                        <input type="submit" value="Отправить" button class="btnpochta">
+                    </div>
+                </form>
             </div>
         </div>
     </main>

@@ -174,20 +174,31 @@ th, td {
     color:black;
     font-family:'Alegreya';
 }
-.contactsimgvk {
-    display:inine-block;
-    padding-left:18px;
+.container {
+    display:flex;
 }
-.ramka-color-contacts-soc {
+.block {
+    background:lightpink;
+    height:250px;
+    width:290px;
+    border:3px soid black;
+    margin-right:150px;
+    margin-left:150px;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+.commontext {
     text-align:center;
-    background-color:lightpink;
-    color:black;
-    border-collapse:collapse;
-    border:2px solid black;
-    margin-left:18px;
-}
-.leftblacktext {
-    margin:0 auto;
-    color:black;
     font-family:'Alegreya';
+}
+h3 {
+    text-align:center;
+}
+.btnpochta {
+    width:100px;
+    padding:1px 1px;
+    background-color:lightpink;
+    border-radius:5px;
+    margin:0 auto;
+    display:block;
 }
